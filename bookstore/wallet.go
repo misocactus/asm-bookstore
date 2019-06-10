@@ -1,6 +1,6 @@
 package bookstore
 
-type BookstoreApp struct {
-	Users []*User
+type Wallet struct {
+	Owner *User
 	Transactions []*Transaction
 }
